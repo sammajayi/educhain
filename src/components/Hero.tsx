@@ -35,7 +35,7 @@ const Hero = () => {
                     <div className="w-full lg:w-1/2 flex justify-center mb-8 lg:mb-0">
                         <img
                             className="max-h-64 sm:max-h-80 w-full max-w-xs sm:max-w-md rounded-3xl shadow-2xl object-cover transition"
-                            src="./src/assets/images/children-garden.jpg"
+                            src="/images/children-garden.jpg"
                             alt="children in the garden"
                         />
                     </div>

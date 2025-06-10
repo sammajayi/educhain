@@ -1,5 +1,3 @@
-
-
 const Footer = () => {
     return (
         <footer>
@@ -24,7 +22,7 @@ const Footer = () => {
                 />
 
             </div>
-            <p>&copy; 2024 Educhain</p>
+            <p>&copy; {new Date().getFullYear()} Educhain</p>
             </div>
         </footer>
     )

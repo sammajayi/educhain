@@ -23,42 +23,42 @@ const objectives = [
 
 const Mission = () => {
     return (
-        <section className="bg-gradient-to-b from-white to-gray-50">
+        <section className="bg-gradient-to-b from-white to-gray-50" id="mission">
             <Container>
 
-                <div className='m-10 p-10'>
+                <div className='p-10' >
 
-                
 
-                <div className='text-center'>
-                    <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
-                        Mission & Objectives
-                    </h2>
-                    <p className="mt-4 max-w-2xl mx-auto text-xl text-gray-500">
-                        Empowering the next generation through blockchain education
-                    </p>
-                </div>
 
-                <div className='mt-20 grid grid-cols-1 gap-12 lg:grid-cols-3'>
-                    {objectives.map((objective, index) => (
-                        <div>
-                            <article key={index} className="text-center">
-                                <div className="flex justify-center mb-6">
-                                    <span className="inline-flex p-4 rounded-full bg-indigo-100 text-indigo-600">
-                                        <objective.icon className="h-8 w-8" />
-                                    </span>
-                                </div>
-                                <h3 className="text-2xl font-bold text-gray-900 mb-4">
-                                    {objective.title}
-                                </h3>
-                                <p className="text-gray-600 leading-relaxed">
-                                    {objective.description}
-                                </p>
-                            </article>
+                    <div className='text-center'>
+                        <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
+                            Mission & Objectives
+                        </h2>
+                        <p className="mt-4 max-w-2xl mx-auto text-xl text-gray-500">
+                            Empowering the next generation through blockchain education
+                        </p>
+                    </div>
 
-                        </div>
-                    ))}
-                </div>
+                    <div className='mt-20 grid grid-cols-1 gap-12 lg:grid-cols-3'>
+                        {objectives.map((objective, index) => (
+                            <div>
+                                <article key={index} className="text-center">
+                                    <div className="flex justify-center mb-6">
+                                        <span className="inline-flex p-4 rounded-full bg-indigo-100 text-indigo-600">
+                                            <objective.icon className="h-8 w-8" />
+                                        </span>
+                                    </div>
+                                    <h3 className="text-2xl font-bold text-gray-900 mb-4">
+                                        {objective.title}
+                                    </h3>
+                                    <p className="text-gray-600 leading-relaxed">
+                                        {objective.description}
+                                    </p>
+                                </article>
+
+                            </div>
+                        ))}
+                    </div>
                 </div>
             </Container>
         </section>

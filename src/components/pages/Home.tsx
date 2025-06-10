@@ -1,6 +1,7 @@
 import Contact from '../Contact'
 import Hero from '../Hero'
 import Mission from '../Mission'
+import Gallery from './Gallery'
 import Team from './Team'
 
 const Home = () => {
@@ -9,6 +10,7 @@ const Home = () => {
         <Hero />
         <Mission />
         <Team />
+        <Gallery />
         <Contact />
     </div>
   )
